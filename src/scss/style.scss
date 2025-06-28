@@ -1,0 +1,21 @@
+// null default styles
+@import "null";
+
+//load variables
+@import "common/variables";
+
+// load mixins
+@import "mixins";
+
+// load swiper
+@import "../../node_modules/swiper/swiper";
+
+// load fancybox
+@import "../../node_modules/@fancyapps/ui/dist/fancybox/fancybox";
+
+
+// load common
+@import "common/common";
+
+// load section
+@import "parts/section";
