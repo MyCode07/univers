@@ -147,9 +147,13 @@
         @media (max-width:768px) {
             margin-top: 133px;
             overflow-x: auto;
-            width: fit-content;
+            width: 100vw;
             margin-left: -15px;
             padding-inline: 15px;
+
+            &::-webkit-scrollbar {
+                display: none;
+            }
         }
 
         div {
@@ -750,7 +754,7 @@
 
 
 .important {
-    margin-bottom: 0;
+    margin-bottom: 0 !important;
     @include adaptive-value('padding-top', 125, 70, 1);
     @include adaptive-value('padding-bottom', 125, 70, 1);
     background-color: $gray;
@@ -809,7 +813,7 @@
 .contact {
     @include adaptive-value('padding-top', 125, 70, 1);
     @include adaptive-value('padding-bottom', 125, 70, 1);
-    margin-bottom: 0;
+    margin-bottom: 0 !important;
 
     color: $white;
     background: linear-gradient(306deg, #F06 0%, #90F 50%, #10C2F5 100%);
