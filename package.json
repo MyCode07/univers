@@ -1,6 +1,6 @@
 {
-    "name": "yan studio",
-    "version": "3.0.0",
+    "name": "univers-landing",
+    "version": "1.0.0",
     "description": "",
     "main": "gulpfile.js",
     "type": "module",
