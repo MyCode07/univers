@@ -94,3 +94,14 @@ p {}
 ._btn {}
 
 .text-box {}
+
+.prev,
+.next {
+    &[disabled] {
+        opacity: 0.5;
+    }
+
+    &.swiper-button-lock {
+        opacity: 0;
+    }
+}
